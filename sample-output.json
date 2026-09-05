@@ -1,0 +1,89 @@
+{
+  "matchId": "l8CtAPRG",
+  "url": "https://www.flashscore.com/match/l8CtAPRG/",
+  "sport": "tennis",
+  "status": "finished",
+  "stage": "finished",
+  "stageCode": 3,
+  "stageDetailCode": 3,
+  "startTime": "2026-09-04T21:20:00.000Z",
+  "lastUpdate": "2026-09-04T23:51:56.000Z",
+  "tournament": {
+    "name": "US Open (USA)",
+    "fullName": "ATP - SINGLES: US Open (USA), hard",
+    "category": "ATP - SINGLES",
+    "categoryLabel": "ATP - Singles",
+    "tour": "ATP",
+    "gender": "men",
+    "discipline": "singles",
+    "surface": "hard",
+    "id": "tQZGKy9k",
+    "stageId": "65k5lHxU",
+    "path": "/tennis/atp-singles/us-open/",
+    "url": "https://www.flashscore.com/tennis/atp-singles/us-open/"
+  },
+  "isDoubles": false,
+  "home": {
+    "name": "Lehecka J.",
+    "fullName": "Lehecka J.",
+    "id": "8Y0hD4UP",
+    "slug": "lehecka-jiri",
+    "url": "https://www.flashscore.com/player/lehecka-jiri/8Y0hD4UP/",
+    "code": "LEH",
+    "country": "Czech Republic",
+    "countryId": 62,
+    "image": "https://static.flashscore.com/res/image/data/44C5ipAN-ne6Kkdx9.png",
+    "altId": "6PlgfXKR"
+  },
+  "away": {
+    "name": "Tsitsipas S.",
+    "fullName": "Tsitsipas S.",
+    "id": "44nO7rhm",
+    "slug": "tsitsipas-stefanos",
+    "url": "https://www.flashscore.com/player/tsitsipas-stefanos/44nO7rhm/",
+    "code": "TSI",
+    "country": "Greece",
+    "countryId": 83,
+    "image": "https://static.flashscore.com/res/image/data/rVaClcVH-hbIQr8HQ.png",
+    "altId": "hb6oWfc6"
+  },
+  "score": {
+    "setsHome": 1,
+    "setsAway": 3,
+    "currentSetsHome": 1,
+    "currentSetsAway": 3,
+    "sets": [
+      {
+        "home": 6,
+        "away": 2,
+        "tiebreakHome": null,
+        "tiebreakAway": null
+      },
+      {
+        "home": 1,
+        "away": 6,
+        "tiebreakHome": null,
+        "tiebreakAway": null
+      },
+      {
+        "home": 6,
+        "away": 7,
+        "tiebreakHome": 3,
+        "tiebreakAway": 7
+      },
+      {
+        "home": 1,
+        "away": 6,
+        "tiebreakHome": null,
+        "tiebreakAway": null
+      }
+    ]
+  },
+  "winner": "away",
+  "inPlay": false,
+  "serving": null,
+  "currentGame": null,
+  "ok": true,
+  "dayOffset": 0,
+  "scrapedAt": "2026-09-05T13:11:16.596Z"
+}
