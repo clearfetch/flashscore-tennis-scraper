@@ -1,7 +1,5 @@
 # Flashscore Tennis Scraper - Live Scores, Stats & Point by Point
 
-**Run it on Apify: [apify.com/clearfetch/flashscore-tennis-scraper](https://apify.com/clearfetch/flashscore-tennis-scraper)**
-
 Get tennis data from Flashscore as clean JSON: fixtures for the days you choose, live scores, final results with
 set and tiebreak scores, players with country and Flashscore IDs, tournament and surface context, plus
 optional per-match statistics, set-by-set summaries and complete point-by-point sequences. ATP, WTA, ITF and
@@ -296,6 +294,10 @@ and is not charged.
   game and both players' recent form count as one charge.
 - Matches that fail or have no data are free. Runs on the Apify free plan.
 
+Paid Apify plans pay less: 10% off on Bronze, 20% on Silver and 30% on Gold and higher tiers.
+
+Apify also charges a run-start fee of $0.00005 per started GB of allocated memory (minimum one event), including runs that produce no chargeable results.
+
 ## Use cases
 
 - **Betting and trading models**: build a serve, return and fatigue history from set durations, point-by-point
@@ -347,9 +349,18 @@ resort.
 **Is this legal?** It reads the same public endpoints a browser reads, with no login and no personal data.
 Scores and results are facts. You are responsible for how you use the data, including any redistribution.
 
+## More tools from clearfetch
+
+- [Flashscore Football Scraper](https://apify.com/clearfetch/flashscore-football-scraper): fixtures, live scores and results from every league
+- [Flashscore Basketball Scraper](https://apify.com/clearfetch/flashscore-basketball-scraper): NBA, EuroLeague and every league, by quarter
+- [Flashscore Baseball Scraper](https://apify.com/clearfetch/flashscore-baseball-scraper): MLB, NPB and KBO with inning-by-inning line scores
+- [Flashscore Hockey Scraper](https://apify.com/clearfetch/flashscore-hockey-scraper): NHL, KHL and every league, by period
+
 ## Changelog
 
+- **1.0.1** (2026-09) — match links copied from the browser work in details mode. Flashscore's current links
+  carry the match ID in `?mid=`, after team names that were being read as the ID; a link with no ID in it is now
+  skipped with a message saying where to find one.
 - **1.0.0** (2026-09) — first release: matches mode with day ranges and status, tour, doubles and tournament
   filters; details mode with set summary, statistics split by period and group, point by point and head to head;
   automatic feed-signature discovery.
-
